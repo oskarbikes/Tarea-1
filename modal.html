@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="modal">
@@ -12,12 +13,22 @@
             Re bien perro, su registro fué exitoso.
             ¡Sigue tu camino ninja!
         </p>
+    </div>
+    <div id="otro">    
         <input id="mostrar-modal" name="modal" type="radio" /> 
         <label for="mostrar-modal"> modal </label>
-        <button id="cerrar-modal" name="modal" type="radio" >
-            <a target="blank" href="Ingreso.html" > cerrar </a>
-        </button>
-        <label for="cerrar-modal"> cerrar </label> 
+        <input id="cerrar-modal" name="cerrar" type="radio" />
+        <label for="cerrar-modal"> X </label> 
+    </div>
+    <a href="#openModal">¡Bienvenido!</a>
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Mi modal</h2>
+            <p>Re bien perro, su registro fué exitoso.
+                ¡Sigue tu camino ninja!         
+            </p>
+        </div>
     </div>
 </body>
 </html>
