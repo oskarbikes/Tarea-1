@@ -2,11 +2,36 @@
     text-align: center;
 }
 main {
-    padding: 20vh 0 35vh 0;
+    padding: 20vh 0 25vh 0;
+}
+/*main > img {
+	opacity: 0.5;*/
 }
 form {
-    margin-bottom: 5vh;
+	width: 50%;
+	height: 50%;
 }
+label {
+
+}
+.nombres {
+
+}
+.apellidos {
+	
+}
+#informacion {
+	margin-bottom: 5vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+/*img {
+	opacity: 0.5;
+	border-radius: 10px;
+	border: 5px solid gray;
+	box-shadow: #999;*/
 .modal {
 	position: fixed;
 	font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +52,7 @@ form {
 	pointer-events: auto;
 }
 .modal > div {
-	width: 400px;
+	width: 40%;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
@@ -44,7 +69,7 @@ transition: opacity 400ms ease-in;
 .modal > div a{
     text-decoration: none;
     box-shadow: red;
-    color: firebrick;
+    color: rgb(45, 85, 170);
 }
 .close {
 	background: #606061;
